@@ -1,0 +1,173 @@
+<!DOCTYPE>
+<html lang="en">
+
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet" />
+	<link rel="icon" href="./public/erslly2.png" />
+	<link rel="stylesheet" href="./styles/style.css" />
+	<link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" rel="stylesheet" crossorigin />
+	<title>Erslly</title>
+</head>
+
+<body oncontextmenu="return true;">
+	<div class="digital-clock-container">
+		<div class="digital-clock" id="clock"></div>
+		<div class="clock-label">Developed by Erslly</div>
+	  </div>
+	  
+	<div class="container">
+		<div class="profile-border box-color">
+			<div class="profile box-color">
+				<div class="banner">
+					<img loading="lazy" id="banner-image" src="./public/banner.jpg" alt="" />
+				</div>
+				<div class="main-header">
+					<div class="image">
+						<div class="avatar">
+							<img loading="lazy" class="box-color" id="avatar-image" alt="" aria-hidden="true"
+								src="./public/erslly2.png" />
+							<img loading="lazy" class="avatar-decoration" src="./public/" alt="" />
+							<div class="status box-color tooltip">
+								<img id="status-image" src="./public/status/offline.svg" alt="" />
+							</div>
+						</div>
+						<!-- </button> -->
+					</div>
+					<div class="badges box-color" id="badges">
+						<div class="badges-right">
+							<a class="tooltip" aria-label="HypeSquad Brilliance">
+								<img alt=" " src="./public/badges/hypesquad-brilliance.svg" /></a>
+							<a class="tooltip" aria-label="Active Developer">
+								<img alt=" " src="./public/badges/active-developer.svg" /></a>
+							<a class="tooltip" aria-label="complated a quest">
+								<img alt=" " src="./public/badges/complated a quest.png" /></a>
+							<a class="tooltip" aria-label="Originally known as Erdm#8820">
+								<img alt=" " src="./public/badges/legacy-username.svg" /></a>
+						</div>
+						<div class="badges-left"></div>
+						<!-- badges list-->
+						<!-- -->
+					</div>
+				</div>
+				<div class="card box-color">
+					<div class="name-box">
+						<span class="display-name">Erslly</span>
+						<button class="id username" id="textToCopy" aria-label="Click to copy!"
+							onclick="copyToClipboard()"></button>
+						<span class="pronouns"></span>
+						<div class="custom-status">
+							<img id="custom-status-emoji" />
+							<p class="custom-status-text"></p>
+						</div>
+					</div>
+					<div class="body">
+						<div class="content">
+							<div class="about-section">
+								<div class="title-body">ABOUT ME</div>
+								<!-- hakkımda yazısı -->
+
+								Hello, my name is Erdem, also known as erslly. I am a 16-year-old software developer,
+								specializing in front-end development. I am working intensively on various projects to
+								build a bright future for myself. Using HTML, CSS, JavaScript, and popular frameworks, I
+								develop user-friendly and impressive web applications.
+								</span>
+								<!-- -->
+							</div>
+							<div class="title-body">ROLES</div>
+							<div class="roles-body">
+								<!-- roller kısmı -->
+								<div class="rol rosepink">
+									<i class="fas fa-circle"></i>
+									<span>Developer</span>
+								</div>
+								<div class="rol softpink">
+									<i class="fas fa-circle"></i>
+									<span>Web Developer</span>
+								</div>
+								<div class="rol green">
+									<i class="fas fa-circle"></i>
+									<span>Web Designer</span>
+								</div>
+								<div class="rol blue">
+									<i class="fas fa-circle"></i>
+									<span>Discord Bot Developer</span>
+								</div>
+								<!-- -->
+							</div>
+							<div class="divider social-divider"></div>
+							<div class="title-body">CONNECTIONS</div>
+
+							<div class="socials">
+								<!-- iletişim kısmı -->
+								<div class="column">
+									<a class="platform" href="https://steamcommunity.com/profiles/76561199729631362/"
+										rel="noreferrer noopener" target="_blank">
+										<img class="platform-icon" alt=" " aria-hidden="true"
+											src="./public/platforms/steam.svg" />
+										<div class="text-base platform-username">
+											Erslly
+										</div>
+										<div>
+											<img alt=" " id="link" aria-hidden="true" src="./public/icons/link.svg"
+												class="connect" />
+										</div>
+									</a>
+									<a class="platform" href="https://open.spotify.com/user/31y5bespqsim2zsgq47lwnmgsw64" rel="noreferrer noopener"
+										target="_blank">
+										<img class="platform-icon" alt="Spotify" aria-hidden="true"
+											src="https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg" />
+										<div class="text-base platform-username">erdem</div>
+										<div href="https://open.spotify.com/user/31y5bespqsim2zsgq47lwnmgsw64"
+											rel="noreferrer noopener" target="_blank">
+											<img alt=" " id="link" aria-hidden="true" src="./public/icons/link.svg"
+												class="connect" />
+										</div>
+									</a>
+
+								</div>
+								<div class="column">
+									<a class="platform" href="https://github.com/Erslly" rel="noreferrer noopener"
+										target="_blank">
+										<img class="platform-icon" alt=" " aria-hidden="true"
+											src="./public/platforms/github.svg" />
+										<div class="text-base platform-username">
+											erslly
+										</div>
+										<div>
+											<img alt=" " id="link" aria-hidden="true" src="./public/icons/link.svg"
+												class="connect" />
+										</div>
+									</a>
+									<a class="platform" href="https://discord.com/users/815668704435896321"
+										rel="noreferrer noopener" target="_blank">
+										<img class="platform-icon" alt=" " aria-hidden="true"
+											src="./public/platforms/discord.svg" />
+										<div class="text-base platform-username">
+											Discord
+										</div>
+										<div class="">
+											<img alt=" " id="link" aria-hidden="true" src="./public/icons/link.svg"
+												class="connect" />
+										</div>
+									</a>
+								</div>
+								<!-- -->
+							</div>
+							<div class="chat-container">
+								<input type="text" id="message-input" placeholder="Message @erslly" />
+
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script async src="./scripts/script.js"></script>
+	<script defer src="./scripts/sub.js"></script>
+</body>
+
+</html>

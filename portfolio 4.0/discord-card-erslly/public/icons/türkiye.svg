@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800">
+  <!-- Kırmızı zemin -->
+  <rect width="1200" height="800" fill="#E30A17"/>
+  <!-- Ay -->
+  <circle cx="400" cy="400" r="200" fill="white"/>
+  <circle cx="450" cy="400" r="160" fill="#E30A17"/>
+  <!-- Yıldız -->
+  <polygon points="625,280 640,330 690,330 650,360 660,410 625,380 590,410 600,360 560,330 610,330" fill="white"/>
+</svg>
